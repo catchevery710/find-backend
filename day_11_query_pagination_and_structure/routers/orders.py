@@ -10,7 +10,7 @@ from schemas import (
     OrderResponse,
     OrderDetailResponse
 )
-from dependencies import (
+from dependencies  import (
     get_user_or_404,
     get_order_or_404
 )

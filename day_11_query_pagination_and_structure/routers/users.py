@@ -1,4 +1,4 @@
-from fastapi import APIRouter,HTTPException,Depends
+from fastapi import APIRouter, HTTPException, Depends
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -6,7 +6,7 @@ from sqlalchemy.exc import IntegrityError
 
 from database import get_db
 from models import User
-from schemas import UserCreate,UserResponse,UserUpdate
+from schemas import UserCreate, UserResponse, UserUpdate
 from dependencies import get_user_or_404
 
 
