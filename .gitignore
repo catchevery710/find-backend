@@ -3,3 +3,5 @@ __pycache__/
 .env
 *.pyc
 .vscode/
+text/
+**/chroma_data/
