@@ -1,0 +1,9 @@
+Retrieval-Augmented Generation, or RAG, combines information retrieval with language model generation.
+
+A RAG system stores external knowledge and retrieves relevant pieces when a user asks a question.
+
+The retrieved information is added to the model's context before generation.
+
+Vector embeddings allow a RAG system to search documents based on semantic similarity.
+
+A vector store keeps document embeddings so they do not need to be recomputed for every user query.
